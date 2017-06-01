@@ -7,6 +7,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 
 import { AppComponent } from './app.component';
+import { LoginLogoutComponent } from './login-logout/login-logout.component';
 
 
 export const firebaseConfig = {
@@ -19,7 +20,8 @@ export const firebaseConfig = {
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginLogoutComponent
   ],
   imports: [
     BrowserModule,
