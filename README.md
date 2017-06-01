@@ -1,6 +1,9 @@
-# PeerjsChat
+# RTChat
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+
+
+A basic real time chat app, using angularfire2 and firebase. Stretch goals incluad video chat with peerjs webRTC library. 
 
 ## Development server
 
